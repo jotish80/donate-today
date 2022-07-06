@@ -1,4 +1,5 @@
-*{
+/* global style */
+* {
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-family: 'Lobster', cursive;
@@ -6,7 +7,8 @@
     box-sizing: border-box;
 }
 
-.top-section{
+/* hero section style */
+.top-section {
     text-align: center;
     padding-top: 200px;
     width: 100%;
@@ -16,14 +18,15 @@
     background-image: url(images/donation2.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;  
+    background-size: cover;
 }
 
-.title{
+.title {
     font-family: 'Poppins';
-    color:#FF5959;  
+    color: #FF5959;
 }
-.main-title{
+
+.main-title {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
@@ -34,7 +37,7 @@
     /* margin-top: 200px; */
 }
 
-.main-paragraph{
+.main-paragraph {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -45,7 +48,7 @@
     color: white;
 }
 
-.main-button{
+.main-button {
     padding: 16px 12px;
     width: 160px;
     height: 56px;
@@ -61,21 +64,23 @@
     cursor: pointer;
 }
 
-.donate{
-    margin-left:850px ;
+/* donation section style */
+
+.donate {
+    margin-left: 850px;
     margin-top: -3px;
 }
 
-.main-button:hover{
+.main-button:hover {
     background-color: #f00909;
 }
 
-.donate-today{
+.donate-today {
     margin-top: 130px;
     margin-bottom: 150px;
 }
 
-.donate-text{
+.donate-text {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -86,25 +91,26 @@
     margin-bottom: 20px;
 }
 
-.donate-paragraph{
+.donate-paragraph {
     font-family: 'Poppins';
     font-weight: 400;
     font-size: 20px;
-    line-height:28px;
+    line-height: 28px;
     text-align: center;
     color: #707070;
     margin-bottom: 50px;
 }
-.donation-rate{
+
+.donation-rate {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 50px;
 }
 
-.rate{
-    width:140px;
-    height:125px;
+.rate {
+    width: 140px;
+    height: 125px;
     border-radius: 5px;
     background-color: #FAFAFA;
     color: #707070;
@@ -114,81 +120,86 @@
     margin-right: 20px;
 }
 
-.taka{
-      font-family: 'Poppins';
+.taka {
+    font-family: 'Poppins';
 }
 
-.rate:hover{
+.rate:hover {
     border: 2px solid #FF5959;
     background-color: #FFEEEE;
     color: #FF5959;
 }
 
-.input-text{
-  margin-left:550px;
-  outline: none;
-  border: none;
-  font-size: 20px;
-  border-bottom: 2px solid #DADADA;;
-  text-align: center;
-  padding: 10px 80px;
-  margin-bottom: 20px;
-  width: 770px;
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 28px;
+.input-text {
+    margin-left: 550px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    border-bottom: 2px solid #DADADA;
+    ;
+    text-align: center;
+    padding: 10px 80px;
+    margin-bottom: 20px;
+    width: 770px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
 }
 
-.donate-plan{
+/* donate plan section style */
+
+.donate-plan {
     margin-top: 130px;
     margin-bottom: 150px;
 }
 
-.all-plan{
+.all-plan {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 25px;
-    
+
 }
 
- .plan-container1{
+.plan-container1 {
     width: 360px;
     height: 352px;
     padding-top: 80px;
     background: rgba(79, 157, 166, 0.1);
     border-radius: 5px;
     text-align: center;
-     
- }
- .plan-container2{
+
+}
+
+.plan-container2 {
     width: 360px;
     height: 352px;
     padding-top: 80px;
     background: rgba(255, 89, 89, 0.1);
     border-radius: 5px;
     text-align: center;
-     
- }
- .plan-container3{
+
+}
+
+.plan-container3 {
     width: 360px;
     height: 352px;
     padding-top: 80px;
     background: #FFF4D6;
     border-radius: 5px;
     text-align: center;
-     
- }
- 
 
- .plan-text{
+}
+
+
+.plan-text {
     text-align: center;
     padding: 10px
- }
+}
 
- .plan-heading{
+.plan-heading {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -196,30 +207,63 @@
     line-height: 36px;
     color: #121212;
     margin-bottom: 16px;
- }
+}
 
- .plan-paragraph{
+.plan-paragraph {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: #707070;
- }
+}
 
- .my-updates{
+/* urgent help need section style */
+
+.all-need-help {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.help-text {
+    font-size: 20px;
+    color: #707070;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.help-container {
+    width: 360px;
+    height: 450px;
+    padding-top: 80px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 5px 5px 15px gray;
+}
+
+.help-container img {
+    width: 250px;
+
+}
+
+/* update section style */
+
+.my-updates {
     margin-top: 130px;
     margin-bottom: 150px;
- }
+}
 
- #input-area{
+#input-area {
     width: 809px;
     height: 200px;
     background: #FFF4D6;
     margin: 0 auto;
- }
+}
 
- .update-input{
+.update-input {
     margin-top: 80px;
     margin-left: 200px;
     border: none;
@@ -231,10 +275,11 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
- }
+}
 
- .subscribe-button{
+.subscribe-button {
     padding: 15px 18px;
+    margin-left: -3px;
     background: #FF5959;
     border: none;
     border-radius: 0px 5px 5px 0px;
@@ -245,32 +290,34 @@
     line-height: 20px;
     color: white;
     cursor: pointer;
-    }
+}
 
-    .footer{
-        margin-top: 130px;
-        background: #0B0D17;
-        height: 180px;
-       
-    }
+/* footer section style */
 
-    .footer-text{
-        font-family: 'Lobster';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 36px;
-        line-height: 44px;
-        letter-spacing: 0.5px;
-        color: #FF5959;
-        text-align: center;
-        padding-top: 50px;
-    }
+.footer {
+    margin-top: 130px;
+    background: #0B0D17;
+    height: 180px;
 
-    .small{
-        font-family: 'Poppins';
-        color: white;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 10px;
-    }
+}
+
+.footer-text {
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.5px;
+    color: #FF5959;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.small {
+    font-family: 'Poppins';
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
